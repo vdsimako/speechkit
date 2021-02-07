@@ -1,0 +1,13 @@
+server:
+  tomcat:
+    connection-timeout: 60s
+
+spring:
+  application:
+    name: speech-service
+
+speech:
+  authUrl: "https://iam.api.cloud.yandex.net/iam/v1/tokens"
+  token: "set_your_user_token_here"
+  speechUrl: "https://tts.api.cloud.yandex.net/speech/v1"
+  folderId: "set_your_folder_id_here"

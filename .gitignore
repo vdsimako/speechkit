@@ -1,0 +1,14 @@
+/target
+/.mvn
+/mvnw.cmd
+mvnw
+
+
+package-lock.json
+node_modules
+/src/main/resources/static/built/
+
+
+*.iml
+.idea
+/src/main/resources/META-INF/additional-spring-configuration-metadata.json
